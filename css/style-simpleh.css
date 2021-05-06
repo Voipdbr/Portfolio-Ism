@@ -1,0 +1,159 @@
+    html {
+        font-family: 'Roboto', sans-serif;
+    }
+    
+    header {
+        display: contents;
+        position: contents;
+        top: 0;
+        height: auto;
+        width: 100%;
+        overflow-x: auto;
+    }
+    
+    body {
+        display: block;
+        margin: 0px;
+        padding: 0px;
+    }
+    
+     ::-webkit-scrollbar {
+        width: 15px;
+    }
+    
+     ::-webkit-scrollbar-track {
+        background-color: rgb(29, 44, 107);
+        border-radius: 1px;
+        transition: 5s;
+    }
+    
+     ::-webkit-scrollbar-track:hover {
+        background: linear-gradient(rgb(79, 79, 255), rgb(255, 0, 0));
+        border-radius: 1px;
+        transition: 1s;
+    }
+    
+     ::-webkit-scrollbar-thumb {
+        background: #6464ff;
+        border-radius: 15px;
+        transition: 1s;
+    }
+    
+     ::-webkit-scrollbar-thumb:hover {
+        background: linear-gradient(rgb(87, 87, 255), rgb(255, 15, 15));
+        border-radius: 15px;
+        transition: 5s;
+    }
+    
+    @media only screen and (max-width: 100000px) {
+        .main-menu {
+            display: block;
+            position: sticky;
+            justify-content: space-around;
+            max-width: 100%;
+            min-height: 100px;
+            padding: 15px;
+            background-color: blueviolet;
+            transition: 1s;
+        }
+        .main-menu:hover {
+            display: block;
+            position: sticky;
+            justify-content: space-around;
+            max-width: 100%;
+            min-height: 110px;
+            padding: 15px;
+            background-color: rgb(70, 0, 136);
+        }
+        .logo {
+            float: left;
+            list-style: none;
+            text-decoration: none;
+        }
+        .logo li a {
+            color: rgb(255, 0, 0);
+            text-transform: uppercase;
+            font-weight: bold;
+            text-decoration-line: unset;
+            font-size: 50px;
+            background-color: white;
+            text-align: center;
+            border-radius: 5px;
+            margin: 20px 20px;
+            padding-right: 30px;
+            padding-left: 30px;
+            padding-bottom: 5px;
+            padding-top: 10px;
+            transition: 1s;
+        }
+        /*rgb(4, 0, 255)
+    rgb(0, 255, 221)*/
+        .logo li a:hover {
+            color: rgb(2, 1, 41);
+            text-transform: uppercase;
+            font-weight: bold;
+            text-decoration-line: unset;
+            font-size: 50px;
+            background-color: rgb(60, 63, 255);
+            text-align: center;
+            border-radius: 5px;
+            transition: 1s;
+            margin: 20px 20px;
+            padding-right: 30px;
+            padding-left: 30px;
+            padding-bottom: 5px;
+            padding-top: 10px;
+        }
+        .ulm-menu {
+            display: block;
+            float: right;
+            list-style: none;
+        }
+        .ulm-menu li {
+            text-transform: uppercase;
+            text-decoration-line: unset;
+            list-style: none;
+            text-decoration: none;
+            float: left;
+            margin: 20px 20px;
+            margin-top: 20px;
+            padding-right: 60px;
+        }
+        .ulm-menu li a {
+            list-style: none;
+            text-decoration: none;
+            text-align: center;
+            font-weight: bold;
+            color: rgb(255, 0, 0);
+            padding-left: 20px;
+            padding-top: 20px;
+            padding-bottom: 20px;
+            padding-right: 20px;
+            border-radius: 5px;
+            background-color: white;
+            transition: 1s;
+        }
+        .ulm-menu li a:hover {
+            list-style: none;
+            text-decoration: none;
+            text-align: center;
+            font-weight: bold;
+            color: rgb(4, 0, 255);
+            padding-left: 20px;
+            padding-top: 20px;
+            padding-bottom: 20px;
+            padding-right: 20px;
+            border-radius: 5px;
+            transition: 1s;
+            background-color: rgb(0, 255, 221);
+        }
+    }
+    
+    @media only screen and (max-width: 1400px) {
+        .main-menu {
+            padding-bottom: 90px;
+        }
+        .main-menu:hover {
+            padding-bottom: 90px;
+        }
+    }

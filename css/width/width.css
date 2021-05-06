@@ -1,0 +1,123 @@
+        @media only screen and (max-width: 1475px) {
+            .image {
+                margin-top: 100%;
+                transition: 1s;
+                opacity: 0;
+                display: none;
+            }
+        }
+        
+        @media only screen and (max-width: 100000px) {
+            .atr,
+            .pro {
+                top: 600px;
+            }
+        }
+        
+        @media only screen and (max-width: 1600px) {
+            .atr,
+            .pro {
+                top: 600px;
+            }
+            .down {
+                margin-left: 250px;
+            }
+            .u-1.u-1s {
+                left: 700px;
+            }
+            .resumo a {
+                margin-right: 90px;
+            }
+        }
+        
+        @media only screen and (max-width: 1400px) {
+            .atr,
+            .pro {
+                top: 600px;
+            }
+            .content.open {
+                left: 15%;
+            }
+            .down {
+                margin-left: 250px;
+            }
+            .u-1.u-1s {
+                left: 500px;
+            }
+            .resumo a {
+                margin-right: 50px;
+            }
+        }
+        
+        @media only screen and (max-width: 1155px) {
+            .atr,
+            .pro {
+                top: 600px;
+            }
+            .down {
+                margin-left: 150px;
+            }
+            .u-1.u-1s {
+                left: 100px;
+            }
+        }
+        
+        @media only screen and (max-width: 1055px) {
+            .atr,
+            .pro {
+                top: 600px;
+            }
+            .down {
+                margin-left: 0px;
+            }
+            .u-1.u-1s {
+                left: 100px;
+            }
+        }
+        
+        @media only screen and (max-width: 950px) {
+            .atr,
+            .pro {
+                top: 600px;
+            }
+            .down {
+                margin-left: 0px;
+            }
+            .u-1.u-1s {
+                left: 100px;
+            }
+            .down {
+                display: none;
+            }
+        }
+        
+        @media only screen and (max-width: 800px) {
+            .atr,
+            .pro {
+                top: 600px;
+            }
+            .down {
+                margin-left: 0px;
+            }
+            .u-1.u-1s {
+                left: 100px;
+            }
+            .down {
+                display: none;
+            }
+            .video-main {
+                margin-right: 4%;
+            }
+            .ul-2 li a {
+                margin-right: 11%;
+            }
+            .ul-1 li a {
+                margin-right: 12%;
+            }
+            .title-on h1 {
+                margin-right: 43px;
+            }
+            .title-on h1:hover {
+                margin-right: 42px;
+            }
+        }

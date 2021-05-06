@@ -1,0 +1,198 @@
+html {
+    font-family: 'Roboto', sans-serif;
+}
+
+footer {
+    height: auto;
+    width: 100%;
+    overflow-x: auto;
+}
+
+body {
+    display: block;
+    margin: 0px;
+    padding: 0px;
+}
+
+.main-footer {
+    position: fixed;
+    max-width: 100%;
+    min-height: 100px;
+    bottom: 0;
+    transition: 1s;
+}
+
+.main-footer:hover {
+    display: flex;
+    position: absolute;
+    max-width: 100%;
+    min-height: 110px;
+    bottom: 0;
+    transition: 1s;
+}
+
+.main-footer .footer {
+    background-color: rgb(43, 35, 80);
+    list-style: none;
+    position: fixed;
+    width: 100%;
+    height: 100%;
+    transition: 1s;
+}
+
+.footer:hover {
+    background-color: rgb(50, 26, 155);
+    list-style: none;
+    position: fixed;
+    width: 100%;
+    height: 100%;
+    transition: 1s;
+}
+
+.footer li a p {
+    float: right;
+    margin-top: 31px;
+    margin-right: 70px;
+    color: rgb(68, 7, 65);
+    background-color: rgb(194, 194, 194);
+    border-radius: 5px;
+    padding: 5px;
+}
+
+.social a i {
+    float: left;
+    margin: 25px 20px 20px 20px;
+    font-size: 40px;
+    color: darkcyan;
+    transition: 1s;
+}
+
+.social a i:hover {
+    float: left;
+    margin: 25px 20px 20px 20px;
+    font-size: 40px;
+    color: rgb(0, 255, 255);
+    transition: 1s;
+}
+
+.social2 a i {
+    float: left;
+    margin: 25px 20px 20px 20px;
+    font-size: 40px;
+    color: darkcyan;
+    transition: 1s;
+}
+
+.social2 a i:hover {
+    float: left;
+    margin: 25px 20px 20px 20px;
+    font-size: 40px;
+    color: rgb(0, 255, 255);
+    transition: 1s;
+}
+
+.social3 a i {
+    float: left;
+    margin: 25px 20px 20px 20px;
+    font-size: 40px;
+    color: darkcyan;
+}
+
+.social3 a i:hover {
+    float: left;
+    margin: 25px 20px 20px 20px;
+    font-size: 40px;
+    color: rgb(0, 255, 255);
+    transition: 1s;
+}
+
+.social4 a i {
+    float: left;
+    margin: 25px 20px 20px 20px;
+    font-size: 40px;
+    transition: 1s;
+    color: darkcyan;
+}
+
+.social4 a i:hover {
+    float: left;
+    margin: 25px 20px 20px 20px;
+    font-size: 40px;
+    color: rgb(255, 0, 0);
+    transition: 1s;
+}
+
+.social5 a i:hover {
+    float: left;
+    margin: 25px 20px 20px 20px;
+    font-size: 40px;
+    color: rgb(0, 255, 255);
+    transition: 1s;
+}
+
+.social5 a i {
+    float: left;
+    margin: 25px 20px 20px 20px;
+    font-size: 40px;
+    transition: 1s;
+    color: darkcyan;
+}
+
+.down {
+    display: inline-block;
+    color: white;
+    position: static;
+    padding: 33px;
+    padding-bottom: 100%;
+    font-size: 20px;
+    margin-left: 470px;
+    background-color: rgb(113, 81, 255);
+    cursor: pointer;
+    transition: 1s;
+}
+
+.down:hover {
+    background-color: rgb(11, 10, 22);
+    transition: 1s;
+}
+
+.footer.downn {
+    margin-top: 500px;
+    transition: 1s;
+}
+
+.d-1 {
+    display: block;
+}
+
+.d-1.d-1s {
+    display: none;
+}
+
+.u-1 {
+    display: block;
+    transition: 1s;
+    top: 600px;
+    opacity: 0;
+}
+
+.u-1.u-1s {
+    display: block;
+    transition: 1s;
+    opacity: 1;
+    top: -600px;
+    color: white;
+    font-size: 40px;
+    padding: 33px;
+    background-color: rgb(11, 10, 22);
+    padding-bottom: 1000px;
+    margin-left: -50px;
+    border-radius: 50px;
+    position: relative;
+}
+
+.u-1.u-1s:hover {
+    transition: 1s;
+    background-color: rgb(255, 255, 255);
+    color: rgb(0, 0, 0);
+}

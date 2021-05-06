@@ -1,0 +1,375 @@
+.black {
+    display: block;
+    position: relative;
+    background-color: transparent;
+    transition: 1s;
+}
+
+.black.b {
+    display: flex;
+    position: absolute;
+    padding-right: 100%;
+    transition: 1s;
+    padding-bottom: 1200px;
+}
+
+.one-t.b2 {
+    display: none;
+}
+
+.corp.b1 {
+    display: none;
+}
+
+body {
+    display: block;
+    background-color: rgb(180, 51, 255);
+    width: 100%;
+}
+
+.corp {
+    display: block;
+    float: right;
+    text-align: center;
+    margin-bottom: 120px;
+    transition: 1s;
+}
+
+.one-o {
+    display: block;
+    transition: 1s;
+    opacity: 1;
+    position: static;
+    right: 0px;
+}
+
+.one-o.o {
+    display: block;
+    transition: 1s;
+    opacity: 0;
+    position: fixed;
+    margin-right: -1000px;
+}
+
+.one-t {
+    display: none;
+    position: fixed;
+    transition: 1s;
+    opacity: 0;
+    margin-top: 5%;
+    padding: 0px;
+    background-color: white;
+    right: -1000px;
+}
+
+.one-t.t {
+    display: block;
+    float: right;
+    position: relative;
+    padding: 100px 500px 100px 500px;
+    right: 0px;
+    text-align: center;
+    background-color: white;
+    transition: 1s;
+    opacity: 1;
+}
+
+.txt-resumo {
+    display: block;
+}
+
+.txt-resumo a {
+    color: black;
+    font-size: 20px;
+}
+
+.corp.pos {
+    display: block;
+    float: right;
+    text-align: center;
+    margin-bottom: 20px;
+    transition: 1s;
+}
+
+.image-main-article {
+    display: block;
+    position: fixed;
+    float: left;
+    background: radial-gradient(rgb(240, 181, 255), rgb(238, 169, 255), transparent, transparent);
+    padding-right: 80px;
+    padding-left: 20px;
+    border-radius: 60px;
+}
+
+.image {
+    display: block;
+    margin-top: 20px;
+    margin-left: 20px;
+    width: 440px;
+    height: 1500px;
+    transition: 1s;
+    background-image: url('/images/bismaplspl.png');
+    background-size: 100% 100%;
+}
+
+.image.none {
+    display: none;
+}
+
+.title-on {
+    float: right;
+}
+
+.title-on h1 {
+    background-color: rgb(238, 169, 255);
+    border-radius: 20px;
+    font-size: 50px;
+    float: right;
+    margin-top: 90px;
+    font-style: italic;
+    transition: 1s;
+    font-weight: normal;
+    padding-right: 0px;
+    padding-left: 0px;
+    margin-right: 240px;
+}
+
+.title-on h1:hover {
+    background-color: rgb(255, 255, 255);
+    border-radius: 20px;
+    font-size: 50px;
+    font-weight: bolder;
+    font-style: normal;
+    float: right;
+    padding-right: 50px;
+    padding-left: 50px;
+    transition: 1s;
+    margin-top: 90px;
+    margin-right: 240px;
+}
+
+.ul-1 li {
+    list-style: none;
+    display: unset;
+}
+
+.ul-1 li a {
+    color: rgb(252, 175, 76);
+    font-size: 40px;
+    display: inline-flex;
+    background-color: white;
+    border-radius: 20px;
+    padding: 20px;
+    transition: 1s;
+    margin-right: 290px;
+}
+
+.ul-2 li {
+    list-style: none;
+    display: unset;
+}
+
+.ul-2 li a {
+    color: rgb(252, 175, 76);
+    font-size: 40px;
+    margin-top: 20px;
+    display: inline-flex;
+    background-color: white;
+    border-radius: 20px;
+    padding: 20px;
+    transition: 1s;
+    margin-right: 290px;
+}
+
+.atr,
+.pro {
+    cursor: pointer;
+    position: absolute;
+    top: 0px;
+    margin-left: 0px;
+    padding: 20px;
+    color: rgb(0, 0, 0);
+    font-size: 18px;
+    font-weight: bold;
+    transition: 0.6s ease;
+    border-radius: 0 3px 3px 0;
+    user-select: none;
+}
+
+.atr {
+    margin-left: 510px;
+    border-radius: 3px 0 0 3px;
+}
+
+.pro {
+    margin-left: -13px;
+}
+
+.video-main {
+    display: inline-flex;
+    background-color: white;
+    padding: 21%;
+    margin-right: 250px;
+    border-radius: 50px;
+}
+
+.atr:hover,
+.pro:hover {
+    background-color: rgba(0, 0, 0, 0.8);
+}
+
+.dot {
+    cursor: pointer;
+    top: 700px;
+    height: 15px;
+    width: 15px;
+    margin: 0 2px;
+    background-color: #bbb;
+    border-radius: 50%;
+    display: inline-block;
+    transition: background-color 0.6s ease;
+}
+
+.active,
+.dot:hover {
+    background-color: #717171;
+}
+
+.fade {
+    -webkit-animation-name: fade;
+    -webkit-animation-duration: 1.5s;
+    animation-name: fade;
+    animation-duration: 1.5s;
+}
+
+.resumo {
+    list-style: none;
+    display: block;
+}
+
+.resumo a {
+    color: rgb(252, 175, 76);
+    font-size: 40px;
+    display: inline-flex;
+    background-color: rgb(41, 41, 41);
+    border-radius: 20px;
+    padding: 20px;
+    transition: 1s;
+    margin-bottom: 100px;
+    margin-right: 90px;
+}
+
+@-webkit-keyframes fade {
+    from {
+        opacity: .4
+    }
+    to {
+        opacity: 1
+    }
+}
+
+@keyframes fade {
+    from {
+        opacity: .4
+    }
+    to {
+        opacity: 1
+    }
+}
+
+.east {
+    display: none;
+}
+
+.image.clos {
+    display: none;
+}
+
+.east.close {
+    display: flex;
+    position: fixed;
+    font-size: 90px;
+    top: 300px;
+    float: left;
+    margin-right: 1000px;
+}
+
+.content {
+    margin-top: -5000px;
+    display: flex;
+    justify-content: center;
+    position: absolute;
+    background-color: rgb(255, 255, 255);
+    border-radius: 10px;
+    color: white;
+    left: 45%;
+    width: 100%;
+    max-width: 500px;
+    padding: 40px 250px 50px 100px;
+}
+
+.fg {
+    display: flex;
+    flex-direction: column;
+    background-color: rgb(98, 55, 255);
+    padding: 20px;
+    margin-left: 100px;
+    border-radius: 50px;
+    text-align: center;
+}
+
+.field {
+    padding: 20px;
+    border-radius: 10px;
+    flex-direction: column;
+    text-align: center;
+    margin: 40px 40px 40px 190px;
+}
+
+.field1 {
+    padding: 60px;
+    flex-direction: column;
+    border-radius: 10px;
+    margin: 40px 40px 40px 160px;
+}
+
+.field2 {
+    display: flex;
+    padding: 60px;
+    flex-direction: column;
+    border-radius: 10px;
+    color: white;
+    font-weight: bold;
+    transition: 1s;
+    cursor: pointer;
+    margin-left: 215px;
+    background-color: rgb(98, 55, 255);
+}
+
+.field2:hover {
+    transition: 1s;
+    display: flex;
+    padding: 60px;
+    flex-direction: column;
+    border-radius: 10px;
+    font-weight: bold;
+    margin-left: 215px;
+    color: white;
+    cursor: pointer;
+    background-color: rgb(55, 0, 255);
+}
+
+.content.open {
+    margin-top: 100px;
+    transition: 1s;
+    display: flex;
+    justify-content: center;
+    position: absolute;
+    background-color: rgb(255, 255, 255);
+    border-radius: 10px;
+    color: white;
+    left: 45%;
+    width: 100%;
+    max-width: 500px;
+    padding: 40px 250px 50px 100px;
+}
